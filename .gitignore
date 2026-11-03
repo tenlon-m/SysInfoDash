@@ -1,0 +1,12 @@
+# 构建产物（由 build.ps1 生成，下载请到 GitHub Releases）
+SysInfoDash.exe
+*.pdb
+
+# 内部 / 开发无关文件（非项目发布内容）
+sysinfo提示词.txt
+test-window*.png
+
+# IDE / 操作系统
+.vs/
+Thumbs.db
+Desktop.ini
